@@ -710,6 +710,7 @@ namespace jogo_da_velha
             {
                 MessageBox.Show("Jogador O ganhou");
                 sair++;
+                zerar();
             }
         }
 
@@ -726,6 +727,7 @@ namespace jogo_da_velha
             {
                 MessageBox.Show("Jogador X ganhou");
                 sair++;
+                zerar();
             }
         }
 
